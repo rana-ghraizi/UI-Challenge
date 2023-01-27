@@ -1,0 +1,30 @@
+.title {
+    font-size: 50px;
+     color: transparent;
+     -webkit-text-stroke-color : black;
+     -webkit-text-stroke-width : 2px;
+     text-align: center;
+}
+.definition-content {
+    display: flex;
+    justify-content: space-between;
+    width: 1500px;
+    margin: auto;
+    align-items: center;
+}
+.image1 {
+    width: 371.92px;
+    height: 362px;
+    border-radius: 0px 60px 0px 60px ;
+}
+.mate-text {
+    width: 900px;
+    font-size: 25px;
+    border: 5px solid #88B900;
+    border-radius: 60px 0px 60px 0px;
+    padding: 20px;
+    height: fit-content;
+}
+.mate{
+    border-bottom: 5px solid #88B900;
+}

@@ -1,0 +1,128 @@
+ul {
+    list-style-type: none;
+}
+.logo {
+    width: 200px;
+    height: 200px;
+    padding-top: 75px;
+}
+
+nav {
+    background-color: rgb(37, 37, 37);
+    box-shadow: 0 1px 4px white;
+    height: 150px;
+}
+
+.menu a {
+    text-decoration: none;
+    color:white;
+    letter-spacing: 2px;
+    display: block;
+    padding: .5rem 2rem;
+    transition: all 0.3s linear;
+    font-size: 25px;
+    
+}
+
+.menu a:hover {
+    background: #14762a;
+    color: black;
+    padding-left: 1.5rem;
+    text-decoration-color: darkgreen;
+    cursor: pointer;
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .1rem;
+
+}
+
+.nav-main {
+    max-width: 1170px;
+    margin: 0 auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.menu {
+    height: auto;
+    display: flex;
+    padding-top: 40px;
+}
+
+.nav-bar {
+    padding: 0;
+}
+
+.fa-bars {
+    display: none;
+}
+
+/* @media (min-width: 800px) {
+    .logo {
+        width: 200px;
+        height: 200px;
+    }
+    .nav-main {
+        max-width: 1170px;
+        margin: 0 auto;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+
+
+    .nav-bar {
+        padding: 0;
+    }
+
+    .fa-bars {
+        display: none;
+    }
+
+    .menu {
+        height: auto;
+        display: flex;
+        font-size: x-large;
+        padding-top: 40px;
+    }
+
+    .menu a {
+        padding: .5rem;
+        margin: 0 .5rem;
+        letter-spacing: 2px;
+    }
+
+    .menu a:hover {
+        text-decoration-color: darkgreen;
+    }
+
+    footer {
+        display: block;
+        font-size: small;
+        color: #fff;
+    }
+} */
+/* @media (max-width: 800px) {
+    .logo {
+        padding-top: 0px;
+        margin-top: -10px;
+    }
+    .nav-main {
+        display: flex;
+    }
+    .menu {
+        display: flex;
+        height: auto;
+        font-size: large;
+        padding-top: 40px;
+    }
+} */

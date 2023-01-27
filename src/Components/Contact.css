@@ -1,0 +1,35 @@
+.contact {
+    background-color: #252525;
+    margin-top: 150px;
+    height: fit-content;
+    overflow: hidden;
+}
+.icon {
+    width: 60px;
+    height: 60px;
+}
+.first {
+    display: flex;
+    gap: 20px;
+}
+.text {
+    color: white;
+    padding: 10px;
+}
+.contactUs {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 400px;
+}
+.socialMedia {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 80px;
+
+}
+.stripe{
+    width: 100vw;
+    
+}
